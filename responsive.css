@@ -1,0 +1,161 @@
+/* Default Layout: 1280px.  */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+.contact-image img {
+   width: 235px;
+   
+}
+   
+}
+
+/* Tablet Layout Portriat: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.logo, .autour_img{
+  text-align: center;
+}
+.header-text {
+  padding: 150px 0 100px;
+}
+.header-text h2 {
+  font-size: 50px;
+}
+.autour_img {
+  margin-top: 30px;
+ }
+.contact-image {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.footer-area h2 {
+   font-size: 17px
+
+}
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 479px) {
+.is-sticky .logo img {
+  height: 85px;
+}
+.main-menu {
+  padding-right: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+ .navbar-toggle {
+  float: none;
+  margin: 0px;
+  border-color:#fff;
+}
+.navbar-header {
+  position: absolute;
+  right: 0;
+  top: -61px;
+}
+.is-sticky .navbar-header {
+  top: -71px;
+}
+.navbar-toggle .icon-bar {
+  background: #fff;
+}
+.social-links {
+  top: -16px;
+}
+.is-sticky .social-links {
+ top: -21px;
+}
+
+.mobile-menu-activated ul.nav.navbar-nav {
+    background: #000 none repeat scroll 0 0;
+    text-align: center;
+}
+.mobile-menu-activated ul.nav.navbar-nav li {
+    display: block;
+}
+.mobile-menu-activated ul.nav.navbar-nav li a {
+    border-bottom: 1px solid #333;
+    padding: 10px;
+}
+.mobile-menu-activated .navbar-collapse {
+  box-shadow: 0 0 0;
+}
+.header-text h2 {
+  font-size: 35px;
+}
+#reviews-carousel::before {
+  font-size: 20px;
+  left: -30px;
+ 
+}
+.reviews-list {
+  font-size: 11px;
+}
+.reviews-author {
+  font-size: 15px;
+  padding: 15px;
+}
+.contact-image img {
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+.contact-form button {
+  margin: 10px auto 0;
+ 
+}
+.footer-area p {
+  font-size: 11px;
+}
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+}
+
+
+/* Tablet Layout Landscape: 992px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Mobile Layout:240px. */
+@media only screen and (max-width: 319px) {
+
+
+
+
+
+
+
+
+
+
+}
+
+/*IMAC 27''*/
+@media only screen and (min-width: 1500px){
+
+
+
+
+
+
+
+
+
+
+
+}
+
